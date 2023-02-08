@@ -7,6 +7,7 @@ setup(
 	author='n-j-p',
 	author_email='example@github.com',
 	packages=['sklearn_named_pipeline'],
-	install_requires=['scikit-learn'
+	install_requires=['sklearn',
+			  'pandas',
 	                 ],
 )
