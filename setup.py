@@ -7,6 +7,9 @@ setup(
 	author='n-j-p',
 	author_email='example@github.com',
 	packages=['sklearn_named_pipeline'],
-	install_requires=['sklearn'
-	],
+	install_requires=['sklearn', 
+			  'sklearn.impute', 
+			  'sklearn.preprocessing',
+			  'sklearn.compose',
+	                 ],
 )
