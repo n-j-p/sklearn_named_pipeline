@@ -1,6 +1,9 @@
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OrdinalEncoder, OneHotEncoder
 from sklearn.compose import ColumnTransformer
+from sklearn.base import TransformerMixin, BaseEstimator
+import pandas as pd
+
 class SimpleImputerNamed(SimpleImputer):
     from sklearn.impute import SimpleImputer
     def get_feature_names_out(self):
